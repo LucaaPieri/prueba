@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="shortcut icon" href="../img/IMPIANTIdsd.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><img src="../img/IMPIANTIdsd.png" alt="logo"></a>
+        
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="clientes.html">Clientes</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Contacto</h1>
+
+    <div class="info">
+        <h3>Info Contacto</h3>
+        <p>info@impiantisa.com.ar</p>
+        <p>Telf:+54 4726-5758</p>
+        <p>Cel: 11 5182 0699/11 5183 0699</p>
+    </div>
+
+    <form class="formulario" action="enviar.php" method="post" enctype="text/plain">
+        <select name="Motivo" id="">
+            <option>Motivo</option>
+            <option>Consulta</option>
+            <option>Reclamo</option>
+            <option>Sugerencia</option>
+        </select>
+    
+        <input class="rectangulos" name="Empresa" type="text" placeholder="Empresa">
+    
+        <input class="rectangulos" type="text" name="Nombre" placeholder="Nombre y Apellido">
+    
+        <input class="rectangulos" type="email" name="Email" placeholder="Email">
+    
+        <input class="rectangulos" type="text" name="Telefono" placeholder="Telefono">
+
+        <input class="rectangulos" type="text" name="Direccion" placeholder="Direccion">
+
+        <textarea name="areadetexto" id="" cols="30" rows="10" placeholder="Escribi aca el asunto"></textarea>
+
+        <input class="rectangulos" type="submit" value="Enviar">
+        <input class="rectangulos" type="reset" value="Borrar">
+    </form>
+
+<p class="form2">¿Queres trabajar con nosotros? Hace click en este <a href="formulario.html">enlace</a> y completa el formulario.</p>
+
+<footer>
+    Todos los derechos reservados
+</footer>
+</body>
+</html>

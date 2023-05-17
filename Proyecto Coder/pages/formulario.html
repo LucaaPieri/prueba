@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="shortcut icon" href="../img/IMPIANTIdsd.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><img src="../img/IMPIANTIdsd.png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="clientes.html">Clientes</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Trabaja con nosotros</h1>
+    
+    <form class="formulario2" action="enviar.php" method="post" enctype="text/plain">
+        <label for="Nombre">Nombre completo :</label>
+        <input type="text" name="Nombre">
+    
+        <label for="Empresa">Apellido/s :</label>
+        <input name="Empresa" type="text">
+    
+        <label for="Nombre">Edad :</label>
+        <input type="number" name="Nombre">
+    
+        <label for="Email">Email :</label>
+        <input type="email" name="Email">
+    
+        <label for="Telefono"> Telefono :</label>
+        <input type="text" name="Telefono">
+    
+        <label for="">Breve descripcion :</label>
+        <textarea name="areadetexto" id="" cols="30" rows="10" placeholder="Escribi aca una descripcion breve"></textarea>
+
+        <label for="cv">Adjunta tu CV :</label>
+        <input type="file" name="cv">
+    </form>
+
+    <footer>
+        Todos los derechos reservados
+    </footer>
+    
+</body>
+</html>
